@@ -1,0 +1,45 @@
+name: 更新开源贡献统计
+
+on:
+  schedule:
+    - cron: '13 2 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/scripts/update_contributions.py'
+      - '.github/scripts/test_update_contributions.py'
+      - '.github/workflows/update-contributions.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-writes-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 检查统计脚本
+        run: python -m unittest discover -s .github/scripts -p 'test_*.py' -v
+      - name: 更新公开 PR 统计
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/update_contributions.py
+      - name: 提交更新后的统计数据
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md assets/pr-stats-dark.svg assets/pr-stats-light.svg; then
+            echo 'Statistics unchanged.'
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add README.md assets/pr-stats-dark.svg assets/pr-stats-light.svg
+            git commit -m 'chore(profile): refresh OSS contribution stats [skip ci]'
+            git push
+          fi
