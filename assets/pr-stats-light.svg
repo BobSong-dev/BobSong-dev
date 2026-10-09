@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="253" viewBox="0 0 1200 253" role="img" aria-label="GitHub 开源贡献 PR 统计">
+<rect x="0" y="0" width="1200" height="253" rx="18" fill="#F6F8FA" />
+<text x="32" y="42" font-size="19" font-weight="700" fill="#1F2328" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif">开源贡献  <tspan fill="#58A6FF">/</tspan>  数据概览</text>
+<text x="1167" y="42" font-size="12" text-anchor="end" fill="#57606A" font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif">BobSong-dev · GitHub 公开 PR</text>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, sans-serif">
+<rect x="32" y="76" width="266" height="135" rx="13" fill="#FFFFFF" stroke="#D0D7DE" />
+<rect x="49" y="93" width="3" height="16" rx="1" fill="#58A6FF" />
+<text x="61" y="105" font-size="13" font-weight="600" letter-spacing="0.4" fill="#57606A">提交 PR</text>
+<text x="51" y="177" font-size="39" font-weight="700" fill="#1F2328">33</text><rect x="314" y="76" width="266" height="135" rx="13" fill="#FFFFFF" stroke="#D0D7DE" />
+<rect x="331" y="93" width="3" height="16" rx="1" fill="#3FB950" />
+<text x="343" y="105" font-size="13" font-weight="600" letter-spacing="0.4" fill="#57606A">已合并 PR</text>
+<text x="333" y="177" font-size="39" font-weight="700" fill="#1F2328">31</text><rect x="596" y="76" width="266" height="135" rx="13" fill="#FFFFFF" stroke="#D0D7DE" />
+<rect x="613" y="93" width="3" height="16" rx="1" fill="#D29922" />
+<text x="625" y="105" font-size="13" font-weight="600" letter-spacing="0.4" fill="#57606A">合并代码变更行数</text>
+<text x="615" y="177" font-size="39" font-weight="700" fill="#1F2328">14,162</text><rect x="878" y="76" width="266" height="135" rx="13" fill="#FFFFFF" stroke="#D0D7DE" />
+<rect x="895" y="93" width="3" height="16" rx="1" fill="#A371F7" />
+<text x="907" y="105" font-size="13" font-weight="600" letter-spacing="0.4" fill="#57606A">参与的开源项目</text>
+<text x="897" y="177" font-size="39" font-weight="700" fill="#1F2328">3</text>
+<text x="32" y="234" font-size="12" fill="#57606A">统计范围：Apache ShenYu · Checkstyle · Apache SeaTunnel　｜　变更行数：已合并 PR 的新增 + 删除（未去重）</text>
+</g>
+</svg>
