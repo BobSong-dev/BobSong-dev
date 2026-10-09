@@ -6,7 +6,7 @@
 <rect x="32" y="76" width="266" height="135" rx="13" fill="#161B22" stroke="#30363D" />
 <rect x="49" y="93" width="3" height="16" rx="1" fill="#58A6FF" />
 <text x="61" y="105" font-size="13" font-weight="600" letter-spacing="0.4" fill="#8B949E">提交 PR</text>
-<text x="51" y="177" font-size="39" font-weight="700" fill="#F0F6FC">33</text><rect x="314" y="76" width="266" height="135" rx="13" fill="#161B22" stroke="#30363D" />
+<text x="51" y="177" font-size="39" font-weight="700" fill="#F0F6FC">34</text><rect x="314" y="76" width="266" height="135" rx="13" fill="#161B22" stroke="#30363D" />
 <rect x="331" y="93" width="3" height="16" rx="1" fill="#3FB950" />
 <text x="343" y="105" font-size="13" font-weight="600" letter-spacing="0.4" fill="#8B949E">已合并 PR</text>
 <text x="333" y="177" font-size="39" font-weight="700" fill="#F0F6FC">31</text><rect x="596" y="76" width="266" height="135" rx="13" fill="#161B22" stroke="#30363D" />
