@@ -51,10 +51,10 @@ public record Developer(
 
 | 开源项目 | 提交 PR | 已合并 | 待处理 | 已合并 PR 代码变更量* |
 |:--|--:|--:|--:|--:|
-| [Apache ShenYu](https://github.com/apache/shenyu/pulls?q=is%3Apr%20author%3ABobSong-dev) | 42 | 38 | 4 | +21,897 / −576 = **22,473** |
+| [Apache ShenYu](https://github.com/apache/shenyu/pulls?q=is%3Apr%20author%3ABobSong-dev) | 44 | 39 | 5 | +24,949 / −581 = **25,530** |
 | [Checkstyle](https://github.com/checkstyle/checkstyle/pulls?q=is%3Apr%20author%3ABobSong-dev) | 1 | 1 | 0 | +351 / −1 = **352** |
 | [Apache SeaTunnel](https://github.com/apache/seatunnel/pulls?q=is%3Apr%20author%3ABobSong-dev) | 1 | 1 | 0 | +33 / −7 = **40** |
-| **合计** | 44 | 40 | 4 | +22,281 / −584 = **22,865** |
+| **合计** | 46 | 41 | 5 | +25,333 / −589 = **25,922** |
 
 <sub>* 代码变更量 = 已合并 PR 的新增行数 + 删除行数之和，不代表最终代码库净新增行数。仅统计上表中的三个公开仓库；数据由 GitHub Actions 每日自动更新。</sub>
 <!-- CONTRIBUTIONS:END -->
