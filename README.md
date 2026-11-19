@@ -3,8 +3,6 @@
 
 # 👋 你好，我是 BobSong
 
-**Java 后端开发 · Apache ShenYu Committer**
-
 <sub>Java 后端 · API Gateway · Distributed Systems · AI Agent</sub>
 
 <p>
