@@ -1,14 +1,24 @@
-&#x20;\<div align="center">
+<div align="center">
 
 # 👋 你好，我是 BobSong
 
 **Java Backend Developer · Apache ShenYu Committer**
 
-\<sub>Java 后端 · API Gateway · Distributed Systems · AI Agent\</sub>
+<sub>Java 后端 · API Gateway · Distributed Systems · AI Agent</sub>
 
-\<p>   \<a href="[https://github.com/apache/shenyu](https://github.com/apache/shenyu)">     \<img alt="Apache ShenYu Committer" src="[https://img.shields.io/badge/Apache%20ShenYu-Committer-D22128?style=flat-square&amp;logo=apache&amp;logoColor=white](https://img.shields.io/badge/Apache%20ShenYu-Committer-D22128?style=flat-square\&amp;logo=apache\&amp;logoColor=white)" />   \</a>   \<a href="[https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)">     \<img alt="Checkstyle Contributor" src="[https://img.shields.io/badge/Checkstyle-Contributor-2C974B?style=flat-square&amp;logo=github&amp;logoColor=white](https://img.shields.io/badge/Checkstyle-Contributor-2C974B?style=flat-square\&amp;logo=github\&amp;logoColor=white)" />   \</a>   \<a href="[https://github.com/apache/seatunnel](https://github.com/apache/seatunnel)">     \<img alt="Apache SeaTunnel Contributor" src="[https://img.shields.io/badge/Apache%20SeaTunnel-Contributor-1677C8?style=flat-square&amp;logo=apache&amp;logoColor=white](https://img.shields.io/badge/Apache%20SeaTunnel-Contributor-1677C8?style=flat-square\&amp;logo=apache\&amp;logoColor=white)" />   \</a> \</p>
+<p>
+  <a href="https://github.com/apache/shenyu">
+    <img alt="Apache ShenYu Committer" src="https://img.shields.io/badge/Apache%20ShenYu-Committer-D22128?style=flat-square&amp;logo=apache&amp;logoColor=white" />
+  </a>
+  <a href="https://github.com/checkstyle/checkstyle">
+    <img alt="Checkstyle Contributor" src="https://img.shields.io/badge/Checkstyle-Contributor-2C974B?style=flat-square&amp;logo=github&amp;logoColor=white" />
+  </a>
+  <a href="https://github.com/apache/seatunnel">
+    <img alt="Apache SeaTunnel Contributor" src="https://img.shields.io/badge/Apache%20SeaTunnel-Contributor-1677C8?style=flat-square&amp;logo=apache&amp;logoColor=white" />
+  </a>
+</p>
 
-\</div>
+</div>
 
 ### 🚀 Open Source Contributions
 
@@ -37,6 +47,6 @@
 
 ---
 
-\<div align="center">
-&#x20; \<sub>Build things that work. Make code that lasts. Contribute to open source.\</sub>
-\</div>
+<div align="center">
+  <sub>Build things that work. Make code that lasts. Contribute to open source.</sub>
+</div>
